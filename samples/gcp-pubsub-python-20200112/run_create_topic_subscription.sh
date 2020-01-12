@@ -14,4 +14,4 @@ gcloud pubsub subscriptions list
 
 gcloud pubsub publish topics publish ${TOPIC_ID} --message "Hello World!"
 
-
+gcloud pubsub subscriptions pull --auto-ack ${SUBSCRIPTION_ID}
